@@ -104,6 +104,7 @@ body {
   }
 
   #div_meinfo {
+	z-index: 2;
     background: #181818;
     background: #131313c4;
     height: 100%;
@@ -155,10 +156,11 @@ body {
     width: 500px;
     border-radius: 2000px;
     border-bottom: dashed 5px #fff;
-    border-right: double 10px #fff;
+	border-right: double 10px #fff;
+	box-shadow: 2px 2px 15px #000000;
   }
 
-/* == === = ME_SOCIAL === === */
+/* == ==== ME_SOCIAL ====== */
   #div_contend_social {
     margin-left: 470px;
     width: 800px;
@@ -188,7 +190,6 @@ body {
 	padding-left: 30px;
 	width: 100%;
 	position: relative;	
-	margin-bottom: 100px;
   }
   
   .carousel__container {
